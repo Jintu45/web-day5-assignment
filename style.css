@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* default css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.fixedwidth{
+    width: 1140px;
+    margin: auto;
+}
+
+.default-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    background: #e35756fa;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.default-p{
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    color: rgb(75, 74, 74);
+}
+
+        /* header section css */
+
+.header-section{
+    background-image: url(img/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0px ;
+    position: relative;
+    z-index: 1;
+}
+.header-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 0 0 / 57%);
+    z-index: -1;
+}
+.header-content{
+    color: #fff;
+}
+.header-content h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.header-content p{
+    width: 40%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+        /* donate section css */
+.donate-section{
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.donate-title h1{
+    font-size: 40px;
+    color: #111;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.donate-item{
+    display: flex;
+    justify-content: center;
+}
+.donate-item-menu {
+    padding: 60px 15px;
+}
+.donate-item-menu h1 {
+    font-size: 25px;
+    color: #838383;
+    background: #f9f7f7;
+    height: 110px;
+    width: 110px;
+    line-height: 110px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+#donate-item-mark{
+    background: #fcecec;
+    border: 2px solid #ff4d4d;
+    color: #ff4d4d;
+}
+.input-design {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    width: 500px;
+    text-align: center;
+    padding: 15px 0px;
+    color: #2d3436;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    outline: none;
+}
+
+            /* plannig section css */
+
+.planning-section{
+    text-align: center;
+    padding: 40px 0px;
+}
+.plannig-title h1{
+    font-size: 40px;
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.plannig-item{
+    display: flex;
+    padding: 40px 0px;
+}
+.plannig-item-menu{
+    text-align: justify;
+    padding: 60px 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.plannig-item-menu img {
+    width: 45px;
+    height: auto;
+}
+.plannig-item-menu h2{
+    font-size: 20px;
+    color: rgb(39, 37, 37);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.plannig-item-menu p {
+    padding-right: 30px;
+    color: #898484;
+    font-size: 15px;
+}
+.design-1 {
+    background: #dcf4ff;
+}
+.design-2 {
+    background: #ffe9e4;
+}
+.design-3 {
+    background: rgb(255 248 211);
+}
+
+            /*  */
